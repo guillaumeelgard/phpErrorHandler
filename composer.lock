@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "07651e0ab930223f908df34eee04c1fc",
+    "packages": [
+        {
+            "name": "bokad/helpers",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guillaumeelgard/phpHelpers.git",
+                "reference": "df213f42005d3e2bdcaf345db27cc377b190055b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guillaumeelgard/phpHelpers/zipball/df213f42005d3e2bdcaf345db27cc377b190055b",
+                "reference": "df213f42005d3e2bdcaf345db27cc377b190055b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "getHelpers.php"
+                ],
+                "psr-4": {
+                    "Bokad\\Helpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume ELGARD",
+                    "email": "hi@guillaumeelgard.com"
+                }
+            ],
+            "description": "Basic Helpers",
+            "support": {
+                "issues": "https://github.com/guillaumeelgard/phpHelpers/issues",
+                "source": "https://github.com/guillaumeelgard/phpHelpers/tree/v1.2.1"
+            },
+            "time": "2022-06-04T22:52:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
