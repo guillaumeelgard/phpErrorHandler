@@ -33,7 +33,7 @@ set_error_handler(function ($errno, $errstr) {
     Debug::pp([$errstr], $options);
 }, E_ALL);
 
-set_exception_handler(function (ParseError $e) {
+set_exception_handler(function (Throwable $e) {
     Debug::pp([$e->getMessage()], [
         'offset' => 0,
         'explicit_var' => false,
