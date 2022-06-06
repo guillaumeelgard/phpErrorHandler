@@ -35,11 +35,9 @@ set_error_handler(function ($errno, $errstr) {
 
 set_exception_handler(function (Throwable $e) {
     Debug::pp([$e->getMessage()], [
-        'offset' => 0,
         'explicit_var' => false,
         'tag' => 'Uncaught exception',
         'colorHigh' => '#ff0000c9',
-        'highText' => 5,
         'backtrace' => $e->getFile() . ':' . $e->getLine(),
     ]);
 });
